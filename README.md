@@ -1,5 +1,5 @@
 # DW-SSFP
-This repository contains code to simulate and analyse Diffusion-Weighted Steady-State Free Precession (DW-SSFP) data.
+This repository contains code to simulate and process Diffusion-Weighted Steady-State Free Precession (DW-SSFP) data.
 
 Details are as follows:
 
