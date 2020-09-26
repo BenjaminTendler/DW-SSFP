@@ -15,5 +15,5 @@ This code provides rapid estimation of the tensor eigenvalue and eigenvectors, a
 
 Requires *numpy*, *sys*, and *nibabel*
 
-Any questions regarding this code and DW-SSFP, please contact benjamin.tendler@ndcn.ox.ac.uk
+Any questions please contact benjamin.tendler@ndcn.ox.ac.uk
 
