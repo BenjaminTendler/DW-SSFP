@@ -1,5 +1,7 @@
 # DW-SSFP
-This repository contains code to simulate the Diffusion-Weighted Steady-State Free Precession (DW-SSFP) signal. Details are as follows:
+This repository contains code associated with the sequence Diffusion-Weighted Steady-State Free Precession (DW-SSFP).
+
+Details are as follows:
 
 **DWSSFP_simulation_plot.py**
 
