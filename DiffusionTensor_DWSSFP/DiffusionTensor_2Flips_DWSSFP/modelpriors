@@ -1,0 +1,19 @@
+// For initialization
+// lam1,lam2,lam3,mu1,mu2,mu3,theta,phi,psi,S0 S0
+P_init[0.002,0.001,0.0005,0.002,0.001,0.0005,0.1,0.1,0.1,100000,100000]
+
+
+// Priors:
+bounds[0]=(0.0,0.01)
+bounds[1]=(0.0,0.01)
+bounds[2]=(0.0,0.01)
+bounds[3]=(0.0,0.01)
+bounds[4]=(0.0,0.01)
+bounds[5]=(0.0,0.01)
+bounds[6]=(-100,100)
+bounds[7]=(-100,100)
+bounds[8]=(-100,100)
+bounds[9]=(0,)
+bounds[10]=(0,)
+
+prior[6]=sin()
