@@ -17,5 +17,13 @@ This code provides rapid estimation of the tensor eigenvalue and eigenvectors, a
 
 Requires *numpy*, *sys*, and *nibabel*
 
+**Ball2Sticks_DWSSFP** and **DiffusionTensor_DWSSFP**
+
+Code to fit a ball & 2 sticks model and diffusion tensor model to DW-SSFP data aquired at one and two flip angles, based on the process described in Tendler, Benjamin C., et al. "*Use of multi-flip angle measurements to account for transmit inhomogeneity and non-Gaussian diffusion in DW-SSFP*", NeuroImage 220 (2020): 117113. Fitting performed using the cuDIMOT toolbox (https://users.fmrib.ox.ac.uk/~moisesf/cudimot/). 
+
+**GammaFitting**
+
+Code to fit a gamma distribution of diffusivisities to multi-flip angle DW-SSFP data, as described in Benjamin C., et al. "*Use of multi-flip angle measurements to account for transmit inhomogeneity and non-Gaussian diffusion in DW-SSFP*", NeuroImage 220 (2020): 117113. Current version is implemented with signal weighting based on the standard deviation of the diffusivity estimates at each flip angle. 
+
 Any questions please contact benjamin.tendler@ndcn.ox.ac.uk
 
