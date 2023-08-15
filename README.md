@@ -17,6 +17,10 @@ This code provides rapid estimation of the tensor eigenvalue and eigenvectors, a
 
 Requires *numpy*, *sys*, and *nibabel*
 
+**DiffusionTensor_DWSSFP_MATLAB**
+
+Code to fit a diffusion tensor model to DW-SSFP data, implemented in MATLAB. Based on the DW-SSFP model described in Freed, D.E. et al., "*Steady-state free precession experiments and exact treatment of diffusion in a uniform gradient*", J. Chem. Phys. 115, 4249 (2001).
+
 **Ball2Sticks_DWSSFP** and **DiffusionTensor_DWSSFP**
 
 Code to fit a ball & 2 sticks model and diffusion tensor model to DW-SSFP data aquired at one and two flip angles, based on the process described in Tendler, Benjamin C., et al. "*Use of multi-flip angle measurements to account for transmit inhomogeneity and non-Gaussian diffusion in DW-SSFP*", NeuroImage 220 (2020): 117113. Fitting performed using the cuDIMOT toolbox (https://users.fmrib.ox.ac.uk/~moisesf/cudimot/). 
